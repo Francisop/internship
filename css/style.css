@@ -1,0 +1,147 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+	width: 100%;
+}
+
+#home
+{
+	height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url(../img/cool_rest-wallpaper-1366x768.jpg);
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+nav
+{
+	position: fixed;
+    width: 100%;
+    height : 50px;
+    border-bottom-width: 1px;
+    border-bottom-style: groove;
+    border-bottom-color: white;
+    font-size: 15px;
+}
+
+ul 
+{
+    list-style-type: none;
+    overflow: hidden;
+}
+        
+li a
+{
+    float: right;
+    color: white;
+    padding: 18px;
+    height: 18px;
+    text-decoration: none; 
+}
+
+li a:hover
+{
+    background-color: #111111;  
+    cursor: pointer;
+}
+
+.myecho
+{
+    text-align: left;
+	color: white;
+    font-size: 30px;
+    padding: 10px;
+    font-family: serif;
+    position: relative;
+    right: 900px;
+}
+
+#textwriteup
+{
+	color: whitesmoke;
+	position: relative;
+	bottom: 205px;
+	font-size: xx-large;
+	text-align: right;
+	padding: 0 144px 8px 711px;
+}
+
+#ontext
+{
+	text-align: center;
+	position: relative;
+	top: 300px;
+	color: white;
+	font-size: 60px;
+	font-family:'Book Antiqua', 'Blackadder ITC', 'Bell MT', 'Agency FB';
+}
+
+#div1
+{
+	background-color: black;
+	height: 400px;
+	color: black;
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	background-image: url(../img/Capture.JPG);
+}
+
+#div2
+{
+	background-color: black;
+	height: 350px; 
+}
+
+.form_fill
+{
+	width: 48%;
+	height: 200px;
+    padding: 0 30px;
+    margin: 0 315px;
+}
+
+section#signup
+{
+    background-color: deepskyblue;
+    height: 400px;    
+}
+
+.signup-form
+{    
+    font-size: 45px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+input[placeholder]
+{
+    width: 300px;
+    height: 35px;
+    margin: 8px;
+}
+ 
+input[type="tel"]
+{
+    margin: 5px;    
+}
+
+input[type="submit"]
+{
+    position: relative;
+	left: 275px;
+}
+
+.video-div {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    left: 20%;
+}
